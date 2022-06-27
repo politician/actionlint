@@ -69,5 +69,5 @@ jobs:
             ACTIONLINT_VER=${{ steps.tag.outputs.name }}
           push: true
           tags: |
-            rhysd/actionlint:${{ steps.tag.outputs.name }}
-            rhysd/actionlint:latest
+            iromain/actionlint:${{ steps.tag.outputs.name }}
+            iromain/actionlint:latest
